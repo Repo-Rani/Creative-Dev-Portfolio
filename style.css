@@ -104,11 +104,12 @@ span {
   font-size: 3.5rem;
 }
 .home-content h1 {
-  font-size: 7rem;
+  font-size: 6rem;
   font-weight: 700;
   margin-top: 1.5rem;
   line-height: 1;
 }
+
 .home-img {
   border-radius: 50%;
 }
@@ -679,8 +680,23 @@ span {
   margin: 1rem 0;
   resize: none;
 }
-.contact form .btn {
-  margin-top: 2rem;
+.contact-btn{
+  display: inline-block;
+  padding: 1rem 2.8rem;
+  background: hsl(342, 92%, 46%);
+  border-radius: 4rem;
+  font-size: 1.6rem;
+  color: white;
+  border: 2px solid transparent;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  margin-top: 3rem;
+}
+.contact-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px hsl(342, 92%, 46%);
 }
 
 /* __________________________________________________Footer___________________________________________________ */
@@ -942,9 +958,7 @@ margin-top: 10rem;
     margin: 0 5rem;
   }
   
- /* form textarea {
-  margin: 0 5rem;
- } */
+ 
  .contact-btn{
   display: inline-block;
   padding: 1rem 2.8rem;
