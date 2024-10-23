@@ -976,3 +976,47 @@ margin-top: 10rem;
 }
 
 }
+
+@media (max-width:438px) {
+  .home-img img {
+    width: 80vw;
+    margin-top: 7rem;
+}
+.home-content h1 {
+  font-size: 6rem;
+  
+}
+
+.about img {
+  width: 65vw;
+  margin-top: 2rem;
+}
+
+.about-content h2 {
+  margin-top: -7rem;
+  font-size: 5rem;
+}
+
+.service-info p {
+  font-size: 1.6rem;
+}
+.project-card {
+  margin-right: 5.5rem;
+}
+.projects h2 {
+  margin-top: -1rem;
+  margin-bottom: -4rem;
+}
+.projects-btn {
+  padding:1rem 1.8rem;
+}
+
+.contact .heading {
+  font-size: 4.5rem;
+}
+.contact-btn{
+  padding: 1rem 1.8rem;
+}
+
+
+}
